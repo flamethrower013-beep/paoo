@@ -14,9 +14,9 @@ function Home() {
   return (
   <>
       <Navbar />
+      <Hero/>     
       <div className="section bg-xiketic px-[11vw] pb-4">
 
-      <Hero/>     
       <Howtouse/>
       <Features/>
       <Reviews/>
