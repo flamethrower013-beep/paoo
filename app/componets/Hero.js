@@ -36,7 +36,7 @@ useEffect(() => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }} />
-      <div className="pointer-events-none absolute h-40 w-full bottom-0  left-0 bg-gradient-to-b from-transparent to-xiketic z-30" />
+      <div className="pointer-events-none absolute h-40 w-full sm:bottom-0 bottom-[-1] left-0 bg-gradient-to-b from-transparent to-xiketic z-30" />
       <div className="left flex flex-col gap-2 z-10">
         <h1 className='hidden font-extrabold text-7xl lg:block'>CREATE</h1>
         <h1 className='hidden font-extrabold text-7xl lg:block'>MANAGE</h1>
