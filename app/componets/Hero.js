@@ -27,7 +27,7 @@ useEffect(() => {
 
   return (
     <div
-      className="h-[90vh] pt-[15vh] flex justify-center lg:justify-between items-center object-cover transition-all duration-700 ease-in-out"
+      className="h-[90vh] pt-[14vh] flex justify-center lg:justify-between items-center object-cover transition-all duration-700 ease-in-out"
       
     >
       <Image className=' h-[90vh] w-full  transition-all duration-700 opacity-20 ease-in-out absolute left-0' src={null} alt='Background'
