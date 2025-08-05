@@ -67,8 +67,8 @@ export default function Reviews() {
       </div>
 
       {/* SHADOWS: absolutely positioned siblings of scroll container */}
-      <div className="pointer-events-none absolute h-80 bottom-0 left-0  w-30 bg-gradient-to-r from-xiketic to-transparent z-30" />
-      <div className="pointer-events-none absolute h-80 bottom-0 right-0  w-30 bg-gradient-to-l from-xiketic to-transparent z-30" />
+      <div className="pointer-events-none absolute h-90 bottom-0 left-0  w-30 bg-gradient-to-r from-xiketic to-transparent z-30" />
+      <div className="pointer-events-none absolute h-90 bottom-0 right-0  w-30 bg-gradient-to-l from-xiketic to-transparent z-30" />
 
       {/* Scroll container */}
       <div

@@ -25,7 +25,7 @@ function Features() {
     },
   ];
   return (
-    <div id='Features' className='h-full flex flex-col justify-center items-center pt-[12vh]'>
+    <div id='Features' className='h-full flex flex-col justify-center items-center pt-[8vh]'>
       <h1 className='text-4xl sm:text-5xl md:text-6xl text-center font-extrabold'>Why Choose Us?</h1>
     <section className="py-12 px-4">
       <div className="max-w-6xl mx-auto text-center mb-10">
