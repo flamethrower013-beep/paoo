@@ -27,7 +27,7 @@ useEffect(() => {
 
   return (
     <div
-      className="h-[90vh] pt-[10vh] flex justify-center lg:justify-between items-center object-cover transition-all duration-700 ease-in-out"
+      className="h-[90vh] pt-[8vh] flex justify-center lg:justify-between items-center object-cover transition-all duration-700 ease-in-out"
       
     >
       <Image className=' h-[90vh] mt-[9vh] w-full  transition-all duration-700 opacity-20 ease-in-out absolute left-0' src={null} alt='Background'
@@ -36,7 +36,7 @@ useEffect(() => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }} />
-      <div className="pointer-events-none absolute h-40 w-full bottom-0 left-0 bg-gradient-to-b from-transparent to-xiketic z-30" />
+      <div className="pointer-events-none absolute h-40 w-full bottom-2  left-0 bg-gradient-to-b from-transparent to-xiketic z-30" />
       <div className="left flex flex-col gap-2 z-10">
         <h1 className='hidden font-extrabold text-7xl lg:block'>CREATE</h1>
         <h1 className='hidden font-extrabold text-7xl lg:block'>MANAGE</h1>
