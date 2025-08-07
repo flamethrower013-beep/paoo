@@ -20,23 +20,22 @@ const slides = [
 function Hero() {
 const [currentSlide, setCurrentSlide] = useState(0)
 
-useEffect(() => {
-  console.log("Slide changed:", currentSlide)
-  console.log("Background image:", slides[currentSlide].backImage);
-}, [currentSlide]);
 
   return (
     <div
       className="h-screen pt-[14vh] w-full flex justify-center lg:justify-between items-center object-cover overflow-hidden transition-all duration-700 ease-in-out relative px-20"
     >
-      <Image className='max-h-fit min-h-full  w-full  transition-all duration-700 opacity-20 ease-in-out absolute left-0' src={null} alt='Background'
+<div className="bg-black min-h-screen max-h-fit opacity-50 absolute top-0 left-0 w-full  z-20">
+
+  </div>
+      <Image className='max-h-fit min-h-full  w-full transition-all duration-700 ease-in-out absolute left-0' src={null} alt='Background'
       style={{
         backgroundImage: `url(${slides[currentSlide].backImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }} />
-      <div className="pointer-events-none absolute h-40 w-full bottom-0   left-0 bg-gradient-to-b from-transparent to-xiketic z-30 " />
-      <div className="left flex flex-col gap-2 z-10">
+      <div className="pointer-events-none absolute h-40 w-full bottom-0  left-0 bg-gradient-to-b from-transparent to-xiketic z-30 " />
+      <div className="left flex flex-col gap-2 z-20 ">
         <h1 className='hidden font-extrabold text-7xl lg:block'>CREATE</h1>
         <h1 className='hidden font-extrabold text-7xl lg:block'>MANAGE</h1>
         <h1 className='hidden font-extrabold text-7xl lg:block'>EARN</h1>
@@ -46,7 +45,7 @@ useEffect(() => {
         duration-200 ease-in-out font-bold rounded w-full hover:border-orange
         hover:text-orange hover:bg-raisin-black-2' value="Sign Up/Sign in" />
       </div>
-    <div className="right max-w-full">
+    <div className="right max-w-full z-20">
         <div className="w-full hidden lg:block">
         <Carousel autoSlide={true} onSlideChange={setCurrentSlide}>
             {
