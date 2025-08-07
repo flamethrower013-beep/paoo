@@ -28,7 +28,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
 <div className="bg-black min-h-screen max-h-fit opacity-50 absolute top-0 left-0 w-full  z-20">
 
   </div>
-      <Image className='max-h-fit min-h-full  w-full transition-all duration-700 ease-in-out absolute left-0' src={null} alt='Background'
+      <Image className='max-h-fit min-h-full  w-full transition-all duration-700 ease-in-out absolute left-0 z-10' src={null} alt='Background'
       style={{
         backgroundImage: `url(${slides[currentSlide].backImage})`,
         backgroundSize: 'cover',
