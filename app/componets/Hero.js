@@ -28,7 +28,6 @@ useEffect(() => {
   return (
     <div
       className="h-screen pt-[14vh] w-full flex justify-center lg:justify-between items-center object-cover overflow-hidden transition-all duration-700 ease-in-out relative px-20"
-      
     >
       <Image className='max-h-fit min-h-full  w-full  transition-all duration-700 opacity-20 ease-in-out absolute left-0' src={null} alt='Background'
       style={{
@@ -58,9 +57,7 @@ useEffect(() => {
             </Carousel>
         </div>
     </div>
-
       </div>
          )
 }
-
 export default Hero

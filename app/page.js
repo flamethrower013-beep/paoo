@@ -12,7 +12,7 @@ import Newsletter from './componets/Newsletter'
 
 function Home() {
   return (
-  <>
+  <div className=" text-white">
       <Navbar />
       <Hero/>     
       <div className="section bg-xiketic px-[11vw] pb-4">
