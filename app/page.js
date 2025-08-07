@@ -22,7 +22,7 @@ function Home() {
       <Reviews/>
       <Newsletter/>
     </div>
-  </>
+  </div>
   )
 }
 
